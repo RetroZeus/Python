@@ -40,6 +40,12 @@ def create_folder(name):
 		print("Creating another one")
 		already_found()
 
+timer = 0
+end_time = 2
+while True:
+	if time != end_time:
+		timer += 1
+		create_folder(name="MAC")
+	elif time == end_time:
+		quit()
 
-
-create_folder(name="MAC")
