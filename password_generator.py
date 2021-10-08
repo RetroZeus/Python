@@ -1,9 +1,9 @@
 import string
 from random import *
 
-UPPER_ALPHABETS = string.ascii_uppercase
-lower_alphabets = string.ascii_lowercase
-numbers = string.digits
+UPPER_ALPHABETS = string.ascii_uppercase # all upper alphabets (A-Z)
+lower_alphabets = string.ascii_lowercase # all lower alphabets (a-z)
+numbers = string.digits # all digits (0-9)
 
 passlist = [] 
 passlist.extend(UPPER_ALPHABETS)              
