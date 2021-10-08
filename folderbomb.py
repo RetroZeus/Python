@@ -6,6 +6,7 @@ wordlist = []
 wordlist.extend(list(string.ascii_uppercase)) 
 guess_list = []
 PATH = f"C:\\Users\\{os.getlogin()}\\Desktop"
+# change the path if u are on different OS
 
 def connect_characters(wordnum):
 	global wordlist
@@ -13,6 +14,7 @@ def connect_characters(wordnum):
 	word = wordlist[0:wordnum] 
 	complete_word = ''.join(word)
 	return complete_word
+# generating a random name to create a directory by python
 
 def already_found():
 	global guess_list
@@ -21,7 +23,8 @@ def already_found():
 	folder_name = connect_characters(wordnum=get_number) 
 	os.mkdir(folder_name) 
 	print("Created")
-	
+# executes when same directories are found
+
 
 def create_folder(name):
 	global PATH
@@ -39,7 +42,7 @@ def create_folder(name):
 		print(err)
 		print("Creating another one")
 		already_found()
-
+# program to make new directory
 if __name__ == "__main__":
 	while True:
 		name = input("Type a name: ")
