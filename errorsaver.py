@@ -20,7 +20,7 @@ else:
   number = int(number)
   
 #ZeroDivisionError case
-new_number = 10
+new_number = 10 # any number u like
 next_number = input("Give a number: ") 
 
 try:
