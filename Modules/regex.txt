@@ -1,5 +1,5 @@
 RegEx or Regular Expressions are used as a search pattern for a sequence of text.
-All tools use a search use the speciality of RegEx
+All tools which use search,use the speciality or feature of RegEx
 
 . - Any character except New Line
 \d - Digits (0-9)
