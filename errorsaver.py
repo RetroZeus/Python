@@ -2,7 +2,7 @@
 import logging
 
 logger = logging.getLogger(__name__) 
-
+logger.setLevel(logging.INFO)
 file = logging.FileHandler('logs.log') 
 formatter = logging.Formatter('%(name)s:%(message)s:%(levelname)s') 
 file.setFormatter(formatter)
